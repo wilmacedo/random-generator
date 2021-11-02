@@ -29,7 +29,9 @@ const raffle = () => {
 
     const finalRandom = Number(formatted); // get number ref
 
-    if (finalRandom < maxNumber && finalRandom > minNumber) {
+    const isRepeat = randomArray.includes(finalRandom);
+
+    if (finalRandom < maxNumber && finalRandom > minNumber && !isRepeat) {
       randomArray.push(finalRandom);
     }
   }

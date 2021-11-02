@@ -11,5 +11,5 @@ yarn generate
 or
 
 ```
-npm generate
+node src/app.js
 ```

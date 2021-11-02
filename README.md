@@ -2,7 +2,7 @@
 
 ## How to generate
 
-Generate tests with
+First, add dependencies with `yarn` or `npm install` and generate tests with
 
 ```
 yarn generate

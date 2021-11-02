@@ -1,0 +1,12 @@
+{
+  "name": "scenary-02",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node src/app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "objects-to-csv": "^1.3.6"
+  }
+}
